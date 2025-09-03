@@ -150,19 +150,19 @@ main{
     transform: scale(0.8);
 }
 #card1{
-    background-image: url(/assets/keanu-reeves-gq-cover-may-2019-social-removebg-preview.png);
+    background-image: url(assets/keanu-reeves-gq-cover-may-2019-social-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #card2{
-    background-image: url(/assets/jujutsu-kaisen-sad-sukuna-sticker-cover-removebg-preview\(1\).png);
+    background-image: url(assets/jujutsu-kaisen-sad-sukuna-sticker-cover-removebg-preview\(1\).png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 #card3{
-    background-image: url(/assets/76b17d08ec209b6ecefb7be7028dae13-removebg-preview.png);
+    background-image: url(assets/76b17d08ec209b6ecefb7be7028dae13-removebg-preview.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -189,4 +189,5 @@ main{
 }
 .label:active{
     transform: scale(0.7);
+
 }
