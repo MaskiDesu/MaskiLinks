@@ -82,7 +82,7 @@ nav{
     border-bottom: 1px solid rgb(84, 170, 250);
 }
 main{
-    background-image: linear-gradient(rgb(84, 170, 250) 20%,black);
+    background-image: linear-gradient(rgb(22, 40, 58) 20%,black);
     height: 100%;
 }
 .cartoon_logo{
@@ -99,20 +99,25 @@ table{
     width: 100%;
 }
 table a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
 }
+
 th{
     background-color: white;
     color: black;
     padding: 5px;
 }
 td{
-    padding: 10px 15px;
+    padding: 20px 20px;
     text-align:center;
     border-radius: 20px;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(22, 40, 58) ;
+    transition: all 0.5s ease ;
 }
-tr:nth-child(even) {
-  background: #242424;
+td:hover{
+    transform: scale(1.11);
+    background-color:rgb(84, 170, 250) ;
 }
