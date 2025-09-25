@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+nav a, ul, li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem ;
+}
+.logo{
+    margin-left: 15px;
+    transition: all 1s ease;
+    border-bottom: 1px solid transparent;
+}
+.logo a{
+    font-size: 2rem;
+    color: rgb(84, 170, 250);
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.logo:hover{
+    transform: scale(1.1);
+        border-bottom: 1px solid rgb(84, 170, 250) ;
+}
+.stuff{
+    margin-right: 1.5rem;
+}
+.stuff ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.stuff a:not(.active){
+    font-weight: 600;
+    transition: all 0.5s ease, color 0s ease;
+    border-bottom: 1px solid transparent;
+    line-height: 1;
+}
+.active{
+    display: inline-block;
+    color: rgb(84, 170, 250);
+    border-bottom: 1px solid rgb(84, 170, 250);
+    font-weight: 600;
+    line-height: 1;
+    transition: all 1s ease, color 0s ease;
+    transform: scale(1.2);
+}
+.stuff a:hover{
+    display: inline-block;
+    transform: scale(1.2);
+    color: rgb(84, 170, 250);
+    border-bottom: 1px solid rgb(84, 170, 250);
+}
+main{
+    background-image: linear-gradient(rgb(22, 40, 58) 20%,black);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main a{
+    filter: drop-shadow(1px 1px 5px rgb(206, 211, 216));
+}
+main a{
+    padding: 10px;
+    transition: all 0.7s ease;
+}
+main a:hover{
+    transform: scale(1.15);
+    filter: drop-shadow(1px 1px 10px rgb(70, 152, 235));
+}
